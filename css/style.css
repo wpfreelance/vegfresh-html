@@ -1,0 +1,177 @@
+ /*--------------------------------------------------------------------
+                            File Name: style.css
+                            Template Name: VegFresh
+                            Created By: InStyleThemes
+                            http://instylethemes.com
+---------------------------------------------------------------------*/
+
+
+@import url(bootstrap.min.css) screen;
+@import url(font-awesome.min.css) screen;
+/*@import url(owl.carousel.min.css) screen;
+@import url(owl.theme.default.min.css) screen;*/
+
+ /*--------------------------------------------------------------------
+                            google fonts
+---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Istok+Web:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
+
+
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+
+
+
+
+
+.navbar-nav {
+    text-align: center;
+    width: 100%;
+}
+.navbar-nav > li {
+    display: inline-block;
+    float: none;
+}
+.wpf_header {
+    background-color: #232323;
+    color: #ffffff;
+}
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
+.navbar-nav li a {
+    color: #ffffff !important;
+    font-family: "Istok Web",sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{background: transparent; color:#be926f !important;border-bottom: 2px solid #be926f;}
+.navbar-nav li a:hover {
+    border-bottom: 2px solid #be926f;
+}
+.top-section {
+    padding: 41px 0;
+}
+.reg > ul { padding: 0;}
+.reg li { display: inline;}
+.reg a {
+    color: #666666;
+    line-height: 39px;
+    padding: 0 10px;
+}
+.has-feedback .form-control {
+    background-color: #232323;
+    border-radius: 20px;
+}
+
+.form-control:focus {
+    border-color: #8a6d3b;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #8a6d3b;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #8a6d3b;
+}
+
+ /*--------------------------------------------------------------------
+                            featured products
+---------------------------------------------------------------------*/
+
+.product {
+    border: 1px solid #e6e6e6;
+}
+
+#featured {
+    padding: 60px 0;
+}
+.wpf-wrapper {
+    position: relative;
+    padding: 0;
+    width:auto;
+    display:block;
+}
+.wpf_buy {
+    position: absolute;
+    color:#f00;
+    background-color:rgba(255,255,255,0.8);
+    width: 90%;
+    height: 210px;
+    line-height:100px;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.wpf_buy:hover {
+    opacity:1;
+}
+}
+
+img {
+    z-index:1;
+}
+
+
+/*--------------------------------------------------------------------
+                            products banner
+---------------------------------------------------------------------*/
+ 
+#featured-banner .item {
+    background-color: #232323;
+}
+
+.instagram .col-md-2 {
+    padding: 0;
+}
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------
+                            the blog
+---------------------------------------------------------------------*/
+#wpf-blog {
+    padding: 60px 0;
+}
+.blog {
+    padding-bottom: 5px;
+    transition: 0.5s ease all;
+}
+.blog h3, .blog p {
+    padding: 0px 15px;
+}
+.blog:hover {
+    box-shadow: 0px 0px 65px #ddd;
+}
+.btn-default {
+    color: #fff;
+    background-color: #be926f;
+    border-color: #be926f;
+    border-radius: 25px;
+}
+
+
+
+/*--------------------------------------------------------------------
+                            footer
+---------------------------------------------------------------------*/
+footer {
+    background-color: #232323;
+    margin-top: 98px;
+    padding-top: 50px;
+}
+ul {
+    color: #fff;
+    list-style-type: none;
+}
